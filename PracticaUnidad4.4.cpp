@@ -17,7 +17,7 @@ int main() {
 
 	sf::Vector2f position = cuad_yellow_sprite.getPosition(); //Posiciones x,y del sprite
 	sf::FloatRect size = cuad_yellow_sprite.getGlobalBounds(); //Tamaño del sprite respecto a sus límites 
-	float limiteIzquierdo = 0;  //Limites de pantalla
+	float limiteIzquierdo = 0;  //Límites de pantalla
 	float limiteDerecho = 800 - size.width;
 	float limiteSuperior = 0;
 	float limiteInferior = 600 - size.height;
